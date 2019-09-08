@@ -1,7 +1,6 @@
-import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib,requests
+import os,sys,time,json
 
-#-Animasi-#
-def jalan(z):
+def run(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
@@ -9,7 +8,7 @@ def jalan(z):
 
 def cek():
 	os.system('reset')
-	jalan("[*] Getting Your IP....")
+	run("[*] Getting Your IP....")
 	time.sleep(1)
 	anj=requests.get("https://api.myip.com")
 	b = json.loads(anj.text)
