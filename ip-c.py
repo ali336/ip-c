@@ -1,18 +1,11 @@
-import os,sys,time,json,requests
 
-def run(z):
-	for e in z + '\n':
-		sys.stdout.write(e)
-		sys.stdout.flush()
-		time.sleep(00.1)
+                 DARK HACK FB MASTER
 
-def cek():
-	os.system('reset')
-	run("[*] Getting Your IP....")
-	time.sleep(1)
-	anj=requests.get("https://api.myip.com")
-	b = json.loads(anj.text)
-	print("[*] Your IP : ") +b['ip']
-	print("[*] Country : ") +b['country']
-	
-cek()
+
+
+#NAMA:ALI
+#GITHUB:
+https://github.com/ali336/ip-c/edit/master/ip-c.py
+
+
+*hack akun fecebook
